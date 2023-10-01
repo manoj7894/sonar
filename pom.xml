@@ -14,7 +14,7 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <sonar.host.url>http://13.49.68.245:9000/</sonar.host.url>  
+    <sonar.host.url>http://13.233.190.158:9000/</sonar.host.url>  
     <sonar.login>f35993dfb72f69b8ace3a48170131a1710c2b0a0</sonar.login>
   </properties>
 
