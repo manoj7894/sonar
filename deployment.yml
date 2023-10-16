@@ -16,7 +16,7 @@ spec:
         app: javawebapp
     spec:
       containers:
-      - name: my-container
+      - name: my-container1
         image: manoj3003/nginx_test05
         ports:
         - containerPort: 8080
