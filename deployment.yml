@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: my-container1
-        image: manoj3003/nginx_test06
+        image: manoj3003/nginx_test07
         ports:
         - containerPort: 8080
 ---
@@ -32,4 +32,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-  type: NodePort
+  type: LoadBalancer
