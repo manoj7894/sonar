@@ -18,6 +18,19 @@
     <sonar.login>f35993dfb72f69b8ace3a48170131a1710c2b0a0</sonar.login>
   </properties>
 
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-1-163.ap-south-1.compute.internal-releases</name>
+        <url>http://3.110.158.207:8081/artifactory/repo-01</url>
+    </repository>
+    <snapshotRepository>
+        <id>>central</id>
+        <name>ip-172-31-1-163.ap-south-1.compute.internal-snapshots</name>
+        <url>http://3.110.158.207:8081/artifactory/repo-01</url>
+    </snapshotRepository>
+</distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
