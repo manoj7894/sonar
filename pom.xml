@@ -17,6 +17,15 @@
     <sonar.host.url>http://13.233.190.158:9000/</sonar.host.url>  
     <sonar.login>f35993dfb72f69b8ace3a48170131a1710c2b0a0</sonar.login>
   </properties>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 
   <distributionManagement>
     <repository>
@@ -30,15 +39,6 @@
         <url>http://3.110.158.207:8081/artifactory/repo-01</url>
     </snapshotRepository>
 </distributionManagement>
-
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 
   <build>
     <finalName>supriys</finalName>
