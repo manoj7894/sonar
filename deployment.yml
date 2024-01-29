@@ -16,8 +16,8 @@ spec:
         app: javawebapp
     spec:
       containers:
-      - name: my-container
-        image: manoj3003/nginx_test003
+      - name: my-container5
+        image: manoj3003/nginx_test004
         ports:
         - containerPort: 8080
 ---
@@ -32,4 +32,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 8080
+      targetPort: 8081
