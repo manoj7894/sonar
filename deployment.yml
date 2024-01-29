@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: javawebappdeployment
 spec:
-  replicas: 1
+  replicas: 2
   strategy:
     type: Recreate
   selector:
@@ -16,10 +16,10 @@ spec:
         app: javawebapp
     spec:
       containers:
-      - name: my-container12
+      - name: my-container2
         image: ashokit/javawebapp
         ports:
-        - containerPort: 80
+        - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
@@ -32,4 +32,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 8081
+      targetPort: 8080
