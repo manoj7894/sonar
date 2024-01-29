@@ -16,8 +16,8 @@ spec:
         app: javawebapp
     spec:
       containers:
-      - name: my-container5
-        image: manoj3003/nginx_test005
+      - name: my-container12
+        image: ashokit/javawebapp
         ports:
         - containerPort: 80
 ---
