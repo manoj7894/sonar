@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: my-container5
-        image: manoj3003/nginx_test004
+        image: manoj3003/nginx_test005
         ports:
         - containerPort: 80
 ---
