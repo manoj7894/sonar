@@ -15,7 +15,7 @@
 
   <properties>
     <sonar.host.url>http://13.127.255.208:9000/</sonar.host.url>  
-    <sonar.login>f35993dfb72f69b8ace3a48170131a1710c2b0a0</sonar.login>
+    <sonar.login>dfdfd864e5a01fa3a85b3ddd4642c57ce8a8fbfb</sonar.login>
   </properties>
   
   <dependencies>
