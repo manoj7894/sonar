@@ -14,9 +14,12 @@ pipeline{
                 sh 'mvn clean package'
             }
         }
-        stage('Stage-0 : Static Code Analysis Using SonarQube') { 
-           steps {
+           stage('SonarQube analysis') {
+            steps{
+            withSonarQubeEnv('sonarqube-8.9.2') {         
                 sh 'mvn sonar:sonar'
+            }
+                
             }
         }
         stage('Deploy to tomcat server') {
