@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: my-container2
-        image: docker push manoj3003/pipelie-cicd:tagname
+        image: manoj3003/pipelie-cicd:tagname
         ports:
         - containerPort: 80
 ---
