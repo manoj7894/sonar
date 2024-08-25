@@ -17,9 +17,9 @@ spec:
     spec:
       containers:
       - name: my-container2
-        image: ashokit/javawebapp
+        image: docker push manoj3003/pipelie-cicd:tagname
         ports:
-        - containerPort: 8080
+        - containerPort: 80
 ---
 apiVersion: v1
 kind: Service
@@ -28,7 +28,7 @@ metadata:
 spec:
   selector:
     app: javawebapp
-  type: NodePort
+  type: LoadBalancer
   ports:
     - protocol: TCP
       port: 80
